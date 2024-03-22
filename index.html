@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
     <title>My Personal Website</title>
 </head>
 <body>
@@ -12,22 +12,84 @@
         <nav>
             <div class="container">
                 <div class="logo">
-                    <img src="" alt="">
+                    <img src="./images/my_logo.png" alt="my logo">
                 </div>
+                
                 <div class = "links">
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT ME</a></li>
-                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">MY WORK</a></li>
                         <li><a href="#">PORTFOLIO</a></li>
-                        <li><a href="#">CHOOSE ME</a></li>
+                        <li><a href="#" class="active">HIT ME UP!</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
+        <div class="header-content">
+            <div class="container grid-2">
+                <div class="column-1">
+                    <h1 class="name-title">Joy Wangui</h1>
+                    <p class="text">
+                        Hello, I'm your go to software developer. My team and I are the 
+                        creative engine to make your solution come to realilty and your design
+                        visually impresive!
+                    </p>
+                    <a href="#" class="button">Get My CV</a>
+            </div>
+            <div class="column-2 image">
+                <img src="./images/me2.jpg" class="image-element" alt="Joy">
+            </div>
+
+            </div>
+        </div>
     </header>
+     <section class="class about-me">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="title" data-title="Who I Am">About Me</h3>
+                <p class="text">I understand my client's needs and incorporate them in the development
+                    process. I am SMART and working with me, is a guarantee of the best experience ever. <br>
+                    Don't miss this wonderful opportunity!
+                </p>
+            </div>
+
+        <div class="cards">
+            <div class="card-wrap">
+                <div class="card-content">
+                    <img src="/images/photo1.jpg" class="icon" alt="photography">
+                    <h3 class="title-p">Photography</h3>
+                    <p class="text">
+                        I capture the best unforgetable memories, both outdoors and indoors.
+                    </p>
+                    <a href="#" class="button small">Read More</a>
+                </div>
+            </div>
+
+            <div class="card-wrap">
+             <div class="card-content">
+                <img src="/images/softd1.png" class="icon" alt="Software Development">
+                <h3 class="title-p">Web Development</h3>
+                <p class="text">
+                    For all your web design solutions.
+                </p>
+                <a href="#" class="button small">Read More</a>
+            </div>
+    
+            <div class="card-wrap"></div>
+            <div class="card-content">
+                <img src="/images/appdev1.png" class="icon" alt="Software Development">
+                <h3 class="title-p">App Development</h3>
+                <p class="text">
+                    For all app development solutions. Customer friendly apps.
+                </p>
+                <a href="#" class="button small">Read More</a>
+            </div>
+        </div>
+     </section>
    </main>
 
-<script type="module" href="script.js"></script>
+<script type="module" src="script.js"></script>
 </body>
 </html>
